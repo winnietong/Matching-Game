@@ -1,0 +1,146 @@
+body {
+	font-family: "proxima-nova", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #6f6f6f;
+	margin: auto;
+	text-align: center;
+	min-width: 1000px; 
+	background-image:url("background.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.container {
+	margin: auto;
+	margin-top: 20px;
+	max-width: 980px;
+	display: block; 
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fbfbfb;
+	opacity: 0.95;
+	box-shadow: 0 1px 1px 0 #eaeaea; 
+}
+
+li {
+	font-family: "proxima-nova", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #6f6f6f;
+	padding: 10px 0 0 30px;
+	display: inline;
+	float: right;
+}
+
+a:hover{
+	color: #1d9db7;
+}
+
+a {
+	text-decoration: none;
+	color: #6f6f6f;
+	font-weight: 400; 
+}
+
+p{
+	margin: 5px;
+}
+
+.align-left{
+	float: left;
+}
+
+.align-right{
+	float: right;
+}
+
+button{
+	font-size: 15px;
+	font-weight: normal;
+	padding: 8px;
+	border-radius: 3px;
+	background-color: #22c4e5;
+	border: 1px solid #eee;
+	color: white;
+}
+
+button:hover{
+	background-color: #1d9db7;
+}
+
+img{
+	padding: 5px;
+	border-radius: 5px;
+	height: 140px;
+	margin: 10px;
+	width: 80%;
+}
+
+
+hr{
+	border: 0;
+    height: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid white;
+}
+
+.myCard{
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	width: 180px;
+	height: 230px;
+	background-color: white;
+	background-image: url('logo.jpg');
+	background-size: 70%;
+	background-repeat: no-repeat;
+	opacity: 0.85;
+	background-position: 50% 50%;
+	box-shadow: 2px 2px 2px #ddd;
+}
+
+.myCard:hover{
+	border: 1px solid #bbb;
+	box-shadow: 3px 3px 8px #ccc;
+	opacity: 0.95;
+}
+
+
+#field{
+	margin: 10px 0 50px 0;
+}
+
+.myId{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.pokeName{
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+.active{
+	visibility: visible;
+}
+
+.inactive{
+	visibility: hidden;
+}
+
+.caught{
+	visibility: visible;
+}
+
+
+#win-statement{
+	padding: 10px;
+}
