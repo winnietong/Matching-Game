@@ -109,39 +109,6 @@ $(document).ready(function(){
 		}
 	});
 
-	// $("#getMyTeam").click(function(){
-	// 	$("#field").hide();
-	// 	$("#team").show();
-	// 	$("#team").html(""); // clears myTeam
-	// 	var counter = 0;
-	// 	var myTeam = [580, 197, 137, 654, 678, 148];
-
-	// 	function pause(){
-	// 		if (counter < 6){
-	// 			printTeam(myTeam[counter], "#team");
-	// 			counter ++;
-	// 			setTimeout(pause, 500);
-	// 		}
-	// 	}
-	// 	pause();
-
-	// });
-
-
-	// $("#getRandomTeam").click(function(){
-	// 	$("#myTeam").html(""); // clears myTeam
-	// 	var counter = 0;
-	// 	function pause(){
-	// 		if (counter < 6){
-	// 			printTeam(Math.floor((Math.random() * 720) + 2));
-	// 			counter ++;
-	// 			setTimeout(pause, 500);
-	// 		}
-	// 	}
-	// 	pause();
-
-	// });
-
 });
 
 
